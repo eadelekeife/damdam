@@ -79,7 +79,7 @@
 /* --------------- header st7 --------------- */
 .tc-header-st7 {
   position: relative;
-  padding: 75px 0 140px;
+  padding: 75px 0 0px;
   overflow: hidden;
 }
 .tc-header-st7 .top-inf {
@@ -103,7 +103,7 @@
 }
 .tc-header-st7 h1 {
   position: relative;
-  font-size: 80px;
+  font-size: 60px;
   text-transform: capitalize;
   margin-bottom: 50px;
 }
@@ -363,6 +363,7 @@
 .tc-about-st7 {
   position: relative;
   padding-bottom: 140px;
+  margin-top: 140px;
 }
 .tc-about-st7 .title {
   position: relative;
@@ -1110,4 +1111,12 @@
   .home-st7 .mt-5 {
     margin-top: 2rem !important;
   }
+}
+
+
+/*  */
+.swiper-wrappe {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
 }
